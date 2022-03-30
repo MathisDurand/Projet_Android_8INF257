@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFF4DF">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="40dp"
+            android:text="Vos Alarmes"
+            android:gravity="center"
+            android:textSize="50dp">
+        </TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="7dp"
+            android:layout_marginBottom="7dp"
+            android:layout_weight="2"
+            android:background="@xml/arrondi_principal"
+            android:padding="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@xml/contenu"
+                    android:layout_gravity="center"
+                    android:padding="10dp">
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="30dp">
+                    </EditText>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:textSize="30dp">
+                    </TextView>
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="30dp">
+                    </EditText>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp">
+                    <CheckedTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:text="L"
+                        android:layout_marginHorizontal="2dp">
+
+                    </CheckedTextView>
+                    <CheckedTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:text="M"
+                        android:layout_marginHorizontal="2dp">
+
+                    </CheckedTextView>
+                    <CheckedTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:text="M"
+                        android:layout_marginHorizontal="2dp">
+
+                    </CheckedTextView>
+                    <CheckedTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:text="J"
+                        android:layout_marginHorizontal="2dp">
+
+                    </CheckedTextView>
+                    <CheckedTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:text="V"
+                        android:layout_marginHorizontal="2dp">
+
+                    </CheckedTextView>
+                    <CheckedTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:text="S"
+                        android:layout_marginHorizontal="2dp">
+
+                    </CheckedTextView>
+                    <CheckedTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:text="D"
+                        android:layout_marginHorizontal="2dp">
+
+                    </CheckedTextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:layout_marginTop="10dp"
+                    android:background="@xml/contenu"
+                    android:padding="10dp"
+                    android:elevation="5dp"
+                    android:layout_marginBottom="7dp"
+                    android:onClick="choixsonnerie">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sonnerie"
+                        android:textSize="50dip"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical">
+
+                    </TextView>
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_fleche"
+                        android:layout_marginRight="10dp">
+
+>
+
+                    </ImageView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:layout_marginTop="10dp"
+                    android:background="@xml/contenu"
+                    android:padding="10dp"
+                    android:elevation="5dp"
+                    android:layout_marginBottom="7dp"
+                    android:onClick="desactivation">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Méthode de désactivation"
+                        android:textSize="30dip"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical">
+
+                    </TextView>
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_fleche"
+                        android:layout_marginRight="10dp">
+
+                        >
+
+                    </ImageView>
+                </LinearLayout>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@xml/boutonsave"
+                    android:layout_gravity="center"
+                    android:elevation="5dp"
+                    android:text="Sauvegarder"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:paddingHorizontal="30dp"
+                    >
+
+                </Button>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </ScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@xml/menu_arrondi"
+            android:orientation="horizontal"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="end"
+            android:paddingTop="0dp"
+            >
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Alarme"
+                android:textColor="#FF592A"
+                android:onClick="alarme"
+                android:background="#00363636">
+
+            </Button>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:src="@drawable/ic_barre_menu"
+                android:layout_weight="1"
+                >
+
+            </ImageView>
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Parametre"
+                android:textColor="#000000"
+                android:layout_weight="1"
+                android:onClick="parametre"
+                android:background="#00363636">
+
+            </Button>
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

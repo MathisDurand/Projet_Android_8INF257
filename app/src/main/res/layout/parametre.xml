@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFF4DF">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="40dp"
+            android:text="Paramètres"
+            android:gravity="center"
+            android:textSize="50dp">
+        </TextView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="7dp"
+                android:layout_marginBottom="7dp"
+                android:layout_weight="50"
+                android:background="@xml/arrondi_principal"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:text="Langues"
+                    android:textSize="60dip"
+                    android:background="@xml/contenu"
+                    android:padding="10dp"
+                    android:elevation="5dp"
+                    android:layout_marginBottom="7dp">
+
+                </Button>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:text="Thèmes"
+                    android:textSize="60dip"
+                    android:background="@xml/contenu"
+                    android:padding="10dp"
+                    android:elevation="5dp"
+                    android:layout_marginBottom="7dp">
+
+                </Button>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@xml/menu_arrondi"
+            android:orientation="horizontal"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="end"
+            android:paddingTop="0dp"
+            >
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Alarme"
+                android:textColor="#000000"
+                android:onClick="alarme"
+                android:background="#00363636">
+
+            </Button>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"
+                android:src="@drawable/ic_barre_menu"
+                android:layout_weight="1"
+                >
+
+            </ImageView>
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Parametre"
+                android:textColor="#FF592A"
+                android:layout_weight="1"
+                android:background="#00363636">
+
+            </Button>
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

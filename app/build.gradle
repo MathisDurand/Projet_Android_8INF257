@@ -6,7 +6,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "uqac.dim.projet_android_8inf257"
+        applicationId "uqac.dim.alarmeprojet"
         minSdk 29
         targetSdk 32
         versionCode 1
