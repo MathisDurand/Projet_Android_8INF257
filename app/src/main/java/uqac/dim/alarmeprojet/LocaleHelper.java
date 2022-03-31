@@ -65,6 +65,4 @@ public class LocaleHelper {
         return context;
     }
 }
-//message test
-//autre message
-//,foiqeefnjsz
+//message test coucou
