@@ -66,3 +66,4 @@ public class LocaleHelper {
     }
 }
 //message test coucou
+// oh oh oh
