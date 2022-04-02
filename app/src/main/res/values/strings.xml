@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">alarmeprojet</string>
+    <string name="app_name">alarm project</string>
+    <string name="radioFrench">French</string>
+    <string name="radioEnglish">English</string>
+    <string name="selectLanguage">Select your language</string>
+    <string name="butonNameAlarms">Alarms</string>
+    <string name="butonNameParameters">Parameters</string>
+
 </resources>
