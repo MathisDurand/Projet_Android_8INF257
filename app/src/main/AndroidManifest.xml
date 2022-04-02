@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Projet_Android_8INF257">
         <activity
-            android:name=".MainActivity"
+            android:name=".LoadingScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
