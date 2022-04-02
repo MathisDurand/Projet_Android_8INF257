@@ -14,12 +14,15 @@
         <!-- Customize your theme here. -->
 
     </style>
+
     <style name="Theme.Projet_Android_8INF257.couleurprimaire" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:color">@color/theme_default_principal</item>
     </style>
+
     <style name="Theme.Projet_Android_8INF257.couleursecondaire" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:color">@color/theme_default_secondaire</item>
     </style>
+
     <style name="Theme.Projet_Android_8INF257.couleurtexte" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:color">@color/theme_default_texte</item>
     </style>
