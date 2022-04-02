@@ -1,4 +1,4 @@
-package uqac.dim.alarmeprojet;
+package uqac.dim.projet_android_8inf257;
 
 import android.app.Activity;
 import android.content.Intent;
