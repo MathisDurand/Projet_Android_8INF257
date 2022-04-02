@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.Projet_Android_8INF257" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/theme_default_secondaire</item>
+        <item name="colorPrimaryVariant">@color/theme_default_secondaire</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -14,5 +14,15 @@
         <!-- Customize your theme here. -->
 
     </style>
+    <style name="Theme.Projet_Android_8INF257.couleurprimaire" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:color">@color/theme_default_principal</item>
+    </style>
+    <style name="Theme.Projet_Android_8INF257.couleursecondaire" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:color">@color/theme_default_secondaire</item>
+    </style>
+    <style name="Theme.Projet_Android_8INF257.couleurtexte" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:color">@color/theme_default_texte</item>
+    </style>
+
 
 </resources>

@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Alarmeprojet" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.Projet_Android_8INF257" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_200</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -13,4 +13,15 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Theme.Projet_Android_8INF257.couleurprimaire" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:color">@color/theme_sombre_principal</item>
+    </style>
+    <style name="Theme.Projet_Android_8INF257.couleursecondaire" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:color">@color/theme_sombre_secondaire</item>
+    </style>
+    <style name="Theme.Projet_Android_8INF257.couleurtexte" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:color">@color/theme_sombre_texte</item>
+    </style>
+
 </resources>
