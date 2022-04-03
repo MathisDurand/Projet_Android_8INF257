@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.LanguagePage" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.Projet_Android_8INF257" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/theme_default_secondaire</item>
+        <item name="colorPrimaryVariant">@color/theme_default_secondaire</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -12,39 +12,20 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
     </style>
-    <style name="TitleTheme">
-        <item name="android:textSize">50dp</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textAlignment">center</item>
+
+    <style name="Theme.Projet_Android_8INF257.couleurprimaire" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:color">@color/theme_default_principal</item>
     </style>
-    <style name="RadioGroupTheme">
-        <item name="android:layout_margin">10dp</item>
-        <item name="backgroundTint">@color/black</item>
+
+    <style name="Theme.Projet_Android_8INF257.couleursecondaire" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:color">@color/theme_default_secondaire</item>
     </style>
-    <style name="buttonBottom">
-        <item name="android:layout_margin">2dp</item>
-        <item name="backgroundTint">#FF9800</item>
+
+    <style name="Theme.Projet_Android_8INF257.couleurtexte" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:color">@color/theme_default_texte</item>
     </style>
-    <style name="ButtonRadio1">
-        <item name="android:textSize">30dp</item>
-        <item name="android:layout_margin">15dp</item>
-        <item name="android:backgroundTint">#ECD389</item>
-    </style>
-    <style name="ButtonRadio2">
-        <item name="android:textSize">30dp</item>
-        <item name="android:layout_margin">15dp</item>
-        <item name="android:backgroundTint">@color/black</item>
-        <item name="android:textColor">@color/white</item>
-    </style>
-    <style name="ButtonRadio3">
-        <item name="android:textSize">30dp</item>
-        <item name="android:layout_margin">15dp</item>
-        <item name="android:backgroundTint">#00BCD4</item>
-    </style>
-    <style name="ButtonRadio4">
-        <item name="android:textSize">30dp</item>
-        <item name="android:layout_margin">15dp</item>
-        <item name="android:backgroundTint">#F69E9E</item>
-    </style>
+
+
 </resources>

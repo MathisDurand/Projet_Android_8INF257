@@ -7,14 +7,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="#FFF4DF">
+        android:background="@xml/font">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="40dp"
             android:text="Sonnerie"
             android:gravity="center"
-            android:textSize="50dp">
+            android:textSize="50dp"
+            >
         </TextView>
 
         <ScrollView

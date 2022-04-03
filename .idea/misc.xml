@@ -3,11 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/androidStudioApps/Projet_Android_8INF257/app/src/main/res/drawable/ic_barre_menu.xml" value="0.158" />
-        <entry key="..\:/androidStudioApps/Projet_Android_8INF257/app/src/main/res/layout/lang_page.xml" value="0.25" />
+        <entry key="..\:/Users/duval.daniel/Documents/UQAC_cours/Informatique_mobile/Projet_Android_8INF257/app/src/main/res/drawable/rounded_border_button.xml" value="0.1" />
+        <entry key="..\:/Users/duval.daniel/Documents/UQAC_cours/Informatique_mobile/Projet_Android_8INF257/app/src/main/res/drawable/rounded_border_left.xml" value="0.1" />
+        <entry key="..\:/Users/duval.daniel/Documents/UQAC_cours/Informatique_mobile/Projet_Android_8INF257/app/src/main/res/drawable/rounded_border_right.xml" value="0.1" />
+        <entry key="..\:/Users/duval.daniel/Documents/UQAC_cours/Informatique_mobile/Projet_Android_8INF257/app/src/main/res/drawable/rounded_borders.xml" value="0.1" />
+        <entry key="..\:/Users/duval.daniel/Documents/UQAC_cours/Informatique_mobile/Projet_Android_8INF257/app/src/main/res/drawable/rounded_button.xml" value="0.1" />
+        <entry key="..\:/Users/duval.daniel/Documents/UQAC_cours/Informatique_mobile/Projet_Android_8INF257/app/src/main/res/layout/activity_main.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/duval.daniel/Documents/UQAC_cours/Informatique_mobile/Projet_Android_8INF257/app/src/main/res/layout/choixsonnerie.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/duval.daniel/Documents/UQAC_cours/Informatique_mobile/Projet_Android_8INF257/app/src/main/res/layout/choixthemes.xml" value="0.264" />
+        <entry key="..\:/Users/duval.daniel/Documents/UQAC_cours/Informatique_mobile/Projet_Android_8INF257/app/src/main/res/layout/creeralarme.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/duval.daniel/Documents/UQAC_cours/Informatique_mobile/Projet_Android_8INF257/app/src/main/res/layout/desactivation.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/duval.daniel/Documents/UQAC_cours/Informatique_mobile/Projet_Android_8INF257/app/src/main/res/layout/parametre.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/wathi/AndroidStudioProjects/Projet_Android_8INF257/app/src/main/res/layout/activity_main2.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/wathi/AndroidStudioProjects/Projet_Android_8INF257/app/src/main/res/layout/choixsonnerie.xml" value="0.13489583333333333" />
+        <entry key="..\:/Users/wathi/AndroidStudioProjects/Projet_Android_8INF257/app/src/main/res/layout/creeralarme.xml" value="0.13489583333333333" />
+        <entry key="..\:/Users/wathi/AndroidStudioProjects/Projet_Android_8INF257/app/src/main/res/layout/desactivation.xml" value="0.13489583333333333" />
+        <entry key="..\:/Users/wathi/AndroidStudioProjects/Projet_Android_8INF257/app/src/main/res/layout/parametre.xml" value="0.13489583333333333" />
       </map>
     </option>
   </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
