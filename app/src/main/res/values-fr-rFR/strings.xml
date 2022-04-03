@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">languagePage</string>
+    <string name="radioFrench">Français</string>
+    <string name="radioEnglish">Anglais</string>
+    <string name="selectLanguage">Choisissez votre langue</string>
+    <string name="butonNameAlarms">Alarmes</string>
+    <string name="butonNameParameters">Paramètres</string>
+</resources>
